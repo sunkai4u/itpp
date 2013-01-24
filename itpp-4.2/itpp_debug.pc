@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: IT++
+Description: IT++ is a C++ library of mathematical, signal processing, speech processing, and communications classes and functions
+Version: 4.2
+URL: http://itpp.sourceforge.net/
+Libs: -L${libdir} -litpp -llapack -lblas
+Libs.private:
+Cflags: -I${includedir} -Wall -ggdb -pipe

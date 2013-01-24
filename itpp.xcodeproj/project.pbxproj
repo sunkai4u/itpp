@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		B16C6CD1166C44830000FCC4 /* libitpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libitpp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16C6CD8166C44AF0000FCC4 /* itpp-4.2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "itpp-4.2"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +25,7 @@
 		B16C6CC8166C44830000FCC4 = {
 			isa = PBXGroup;
 			children = (
+				B16C6CD8166C44AF0000FCC4 /* itpp-4.2 */,
 				B16C6CD2166C44830000FCC4 /* Products */,
 			);
 			sourceTree = "<group>";
